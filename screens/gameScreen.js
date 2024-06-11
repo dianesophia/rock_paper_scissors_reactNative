@@ -25,6 +25,14 @@ const gameScreen = (navigation) => {
       <Text>Rock, Paper, Scissors</Text>
       <Text>Player Score: </Text>
       <Text>Computer Score: </Text>
+      <Text>Choose an option </Text>
+
+      <Text>Rock </Text>
+      <Text>Paper </Text>
+      <Text>Scissors </Text>
+
+
+
     </View>
   )
 }
