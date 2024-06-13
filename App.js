@@ -4,7 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Cover from './screens/cover'; 
-import gameScreen from './screens/gameScreen';
+import GameScreen from './screens/gameScreen';
 
 export default function App() {
   const Stack = createStackNavigator();
@@ -13,7 +13,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Cover" screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Cover" component={Cover} />
-        <Stack.Screen name="Game" component={gameScreen} />
+        <Stack.Screen name="Game" component={GameScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
